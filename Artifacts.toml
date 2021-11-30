@@ -1,0 +1,52 @@
+[[BWA]]
+arch = "i686"
+git-tree-sha1 = "fe9fe0be4bce691a83e6aa7297fa36309467481e"
+libc = "glibc"
+os = "linux"
+
+    [[BWA.download]]
+    sha256 = "5e033ecb934eab5487b7ba8716f25856da460382b0e8c38c9cd51b6a7985f922"
+    url = "https://github.com/JuliaBinaryWrappers/BWA_jll.jl/releases/download/BWA-v0.7.17+0/BWA.v0.7.17.i686-linux-gnu.tar.gz"
+[[BWA]]
+arch = "i686"
+git-tree-sha1 = "d38c97acc04d2c249ae0b335fdddc080d9c23444"
+libc = "musl"
+os = "linux"
+
+    [[BWA.download]]
+    sha256 = "6dcf11547306784e0cd0398ed3c95cbb9ff75973dc8b1c94c84ac045e1fd1434"
+    url = "https://github.com/JuliaBinaryWrappers/BWA_jll.jl/releases/download/BWA-v0.7.17+0/BWA.v0.7.17.i686-linux-musl.tar.gz"
+[[BWA]]
+arch = "x86_64"
+git-tree-sha1 = "806e28b1322fc9aae5686dd422839f24be6d11f7"
+os = "macos"
+
+    [[BWA.download]]
+    sha256 = "f92f0ffbcf21e345bfc438eef500887421bee3fde10a575962e06ea44d0be534"
+    url = "https://github.com/JuliaBinaryWrappers/BWA_jll.jl/releases/download/BWA-v0.7.17+0/BWA.v0.7.17.x86_64-apple-darwin.tar.gz"
+[[BWA]]
+arch = "x86_64"
+git-tree-sha1 = "71b422f07145c4156900367b215ddb9e0fa0738c"
+libc = "glibc"
+os = "linux"
+
+    [[BWA.download]]
+    sha256 = "c20c0d6d202c3ddbb78f4195e2dbf06fcd721d371cac58b36e700fe378c36d3f"
+    url = "https://github.com/JuliaBinaryWrappers/BWA_jll.jl/releases/download/BWA-v0.7.17+0/BWA.v0.7.17.x86_64-linux-gnu.tar.gz"
+[[BWA]]
+arch = "x86_64"
+git-tree-sha1 = "c61f89565669979c0f7abeebe8dc681cb20109c9"
+libc = "musl"
+os = "linux"
+
+    [[BWA.download]]
+    sha256 = "1b4a9d34dfae3fd47c04d9d272909aeab347d0ba16ef832c08cd79a17996d042"
+    url = "https://github.com/JuliaBinaryWrappers/BWA_jll.jl/releases/download/BWA-v0.7.17+0/BWA.v0.7.17.x86_64-linux-musl.tar.gz"
+[[BWA]]
+arch = "x86_64"
+git-tree-sha1 = "83a1c7d55cf6d173b15a4f39cbb956a547fc245b"
+os = "freebsd"
+
+    [[BWA.download]]
+    sha256 = "0d62a3763d97bf7a7564671807a2e41c6a08f3c9a14a63d209712e457a252202"
+    url = "https://github.com/JuliaBinaryWrappers/BWA_jll.jl/releases/download/BWA-v0.7.17+0/BWA.v0.7.17.x86_64-unknown-freebsd.tar.gz"
