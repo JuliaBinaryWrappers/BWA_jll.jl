@@ -3,19 +3,19 @@ export bwa, libbwa
 
 using Zlib_jll
 JLLWrappers.@generate_wrapper_header("BWA")
-JLLWrappers.@declare_executable_product(bwa)
 JLLWrappers.@declare_library_product(libbwa, "libbwa.so")
+JLLWrappers.@declare_executable_product(bwa)
 function __init__()
     JLLWrappers.@generate_init_header(Zlib_jll)
-    JLLWrappers.@init_executable_product(
-        bwa,
-        "bin/bwa",
-    )
-
     JLLWrappers.@init_library_product(
         libbwa,
         "lib/libbwa.so",
         RTLD_LAZY | RTLD_DEEPBIND,
+    )
+
+    JLLWrappers.@init_executable_product(
+        bwa,
+        "bin/bwa",
     )
 
     JLLWrappers.@generate_init_footer()
